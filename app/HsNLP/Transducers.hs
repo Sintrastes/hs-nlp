@@ -4,6 +4,7 @@ module HsNLP.Transducers where
 
 import Data.Semigroupoid
 import Data.Groupoid
+import Data.Tensor
 
 -- | A very Haskell-y representation of a non-deterministic 
 -- finite state transducer.
@@ -94,3 +95,14 @@ invertFST FST{..} = FST {
 
 composeFST :: FST b c -> FST a b -> FST a c
 composeFST = undefined
+
+instance Enum (TensorIndex '[n]) where
+
+instance Bounded (TensorIndex '[n]) where
+
+-- | Build a FST from a matrix representing the translations
+fromMatrix :: forall a b n. Tensor '[n,n] (Maybe a, Maybe b) -> [TensorIndex '[n]] -> [TensorIndex '[n]] -> FST a b
+fromMatrix transitions initialStates acceptStates = FST {
+    initialStates = initialStates,
+    acceptStates = acceptStates
+}
