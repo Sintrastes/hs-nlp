@@ -104,5 +104,13 @@ instance Bounded (TensorIndex '[n]) where
 fromMatrix :: forall a b n. Tensor '[n,n] (Maybe a, Maybe b) -> [TensorIndex '[n]] -> [TensorIndex '[n]] -> FST a b
 fromMatrix transitions initialStates acceptStates = FST {
     initialStates = initialStates,
-    acceptStates = acceptStates
+    acceptStates = acceptStates,
+    forwardTrans = \s x -> 
+        -- Look for all transitions in the matrix
+        -- moving from the state s to another state
+        -- with input symbol x
+        undefined,
+    backwardTrans = \s x ->
+        -- Do something similar here, but for the backwards translation.
+        undefined
 }
