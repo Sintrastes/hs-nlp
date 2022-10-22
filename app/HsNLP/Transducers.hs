@@ -2,7 +2,11 @@
 
 module HsNLP.Transducers where
 
--- | A very Haskell-y representation of a finite state transducer.
+import Data.Semigroupoid
+import Data.Groupoid
+
+-- | A very Haskell-y representation of a non-deterministic 
+-- finite state transducer.
 --
 -- Consists of a finite set of states s (which can be any Bounded type 
 --  -- such as Fin n for n :: Nat), together with a set of designated 
@@ -22,6 +26,12 @@ data FST a b = forall s. (Eq s, Enum s, Bounded s) => FST {
     forwardTrans :: (s -> a -> [(s, Maybe b)]),
     backwardTrans :: (s -> b -> [(s, Maybe a)])
 }
+
+instance Semigroupoid FST where
+    o = composeFST
+
+instance Groupoid FST where
+    inv = invertFST
 
 -- | FSTs act on monoids. Yeah, forget your boring strings,
 --  we all generic and algebraic up in here.
@@ -81,3 +91,6 @@ invertFST FST{..} = FST {
     forwardTrans = backwardTrans,
     backwardTrans = forwardTrans
 }
+
+composeFST :: FST b c -> FST a b -> FST a c
+composeFST = undefined

@@ -32,6 +32,8 @@ executable hs-nlp
     default-extensions:
         RecordWildCards
       , ScopedTypeVariables
-    build-depends:    base
+    build-depends: 
+        base
+      , semigroupoids
     hs-source-dirs:   app
     default-language: GHC2021
