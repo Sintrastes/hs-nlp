@@ -69,10 +69,15 @@ runFST' initialStates acceptStates forwardTrans backwardTrans inputTape@(x : xs)
               else []
 -- If we have no input left to process, fail this branch.
 runFST' _ _ _ _ [] _ = []
-    
   where 
     states :: [s]
     states = [minBound .. maxBound]
 
+-- To invert a FST, we just swap the forward and backward relations.
 invertFST :: FST a b -> FST b a
-invertFST = undefined
+invertFST FST{..} = FST {
+    initialStates = initialStates,
+    acceptStates = acceptStates,
+    forwardTrans = backwardTrans,
+    backwardTrans = forwardTrans
+}
