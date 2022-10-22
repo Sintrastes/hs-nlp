@@ -29,6 +29,7 @@ executable hs-nlp
     other-modules:
         HsNLP.Transducers
       , HsNLP.Classifiers
+      , HsNLP.Tokenization
     default-extensions:
         RecordWildCards
       , ScopedTypeVariables
@@ -37,5 +38,6 @@ executable hs-nlp
         base
       , semigroupoids
       , tensors
+      , data-default
     hs-source-dirs:   app
     default-language: GHC2021
