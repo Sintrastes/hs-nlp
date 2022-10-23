@@ -43,6 +43,9 @@ But yeah, this is all MIT licensed, so if you find something useful, do what you
  * [Learning Finite-State Models for Language Understanding](https://aclanthology.org/W98-1307.pdf)
    * This is a surprising application of transducers to me -- where natural language is translated into a (somewhat limited?) formal langauge via transducer. 
 
+ * [Differentiable Weighted Finite-State Transducers](https://arxiv.org/abs/2010.01003)
+   * This seems like an interesting approach to apply the techniques of transducers in a conventional (differentiable) ML context.
+
 ## Compositional Semantics and ML
 
  * [Bringing Machine Learning and Compositional Semantics Together](https://web.stanford.edu/~cgpotts/manuscripts/liang-potts-semantics.pdf)
