@@ -24,6 +24,11 @@ But yeah, this is all MIT licensed, so if you find something useful, do what you
 
   * [HLearn Bayesian Classifier](https://izbicki.me/blog/hlearn-cross-validates-400x-faster-than-weka.html)
     * Super efficent and parallelizable implementation in Haskell.
+    
+# Interesting Applications
+  
+  * [Type-Driven Neural Programming by Example](https://arxiv.org/abs/2008.12613)
+    * This thesis shows an approach of how to structure a neural network for program synthesis-like tasks. A similar structure might be used in order to supply other types of tree-like (strucutred) data as the input or output of a neural net.
 
 # Academic Papers
 
@@ -64,3 +69,6 @@ But yeah, this is all MIT licensed, so if you find something useful, do what you
 
  * [Finite State Tree Transducers](https://home.uni-leipzig.de/gkobele/courses/2018.WS/CompLing/DTT.html) 
     * What sort of NLP tasks might this be good for? What advantage do they have over regular transducers? 
+    
+ * [Scallop](https://scallop-lang.github.io/ssft22/index.html)
+    * A framework integrating differential logic programming with neural networks
