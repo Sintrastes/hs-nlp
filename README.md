@@ -15,6 +15,9 @@ But yeah, this is all MIT licensed, so if you find something useful, do what you
     * Implemented in Java
  * [Spark NLP](https://nlp.johnsnowlabs.com/): 
     * Has a Scala interface. :)
+    
+ * [GF Word Net](https://cloud.grammaticalframework.org/wordnet/gf-wordnet-help.html)
+    * This is a pre-existing interlinugal lexicon compatible with GF, which has many possible sense for each given word.
 
 # Online Tutorials / Slide Decks
 
@@ -24,6 +27,21 @@ But yeah, this is all MIT licensed, so if you find something useful, do what you
 
  * [Semigroupoid Interfaces for Relation-Algebraic Programming in Haskell](https://link.springer.com/chapter/10.1007/11828563_16)
     * From the folks at Kiel (Curry). Seems like an interesting way to integrate logic programming into Haskell.
+    
+ * [Categorial Morphology](file:///Users/nathan/Downloads/10.4324_9781315857442_previewpdf.pdf)
+    * This is a thesis that uses categorial methods to study morphology.
+    
+## Finite State Transducers
+
+ * [A Spectral Learning Algorithm for Finite State Transducers](https://borjaballe.github.io/papers/ecml11.pdf)
+   * Here is a potential technique I might be able to use to derive FSTs from underlying data.
+ 
+ * [Generalizing inflection tables into paradigms with finite state operations](https://web.stanford.edu/group/cslipublications/cslipublications/koskenniemi-festschrift/2-carlson.pdf)
+   * This seems like a promising approach to deriving FSTs from standard inflectional tables. It uses a prolog program that generates
+    a pure C transducer.
+    
+ * [Learning Finite-State Models for Language Understanding](https://aclanthology.org/W98-1307.pdf)
+   * This is a surprising application of transducers to me -- where natural language is translated into a (somewhat limited?) formal langauge via transducer. 
 
 ## Compositional Semantics and ML
 
