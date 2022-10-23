@@ -13,15 +13,17 @@ But yeah, this is all MIT licensed, so if you find something useful, do what you
 
  * [CoreNLP](https://stanfordnlp.github.io/CoreNLP/): 
     * Implemented in Java
+    
  * [Spark NLP](https://nlp.johnsnowlabs.com/): 
     * Has a Scala interface. :)
     
  * [GF Word Net](https://cloud.grammaticalframework.org/wordnet/gf-wordnet-help.html)
     * This is a pre-existing interlinugal lexicon compatible with GF, which has many possible sense for each given word.
 
-# Online Tutorials / Slide Decks
+# Online Tutorials / Posts / Slide Decks
 
-  * 
+  * [HLearn Bayesian Classifier](https://izbicki.me/blog/hlearn-cross-validates-400x-faster-than-weka.html)
+    * Super efficent and parallelizable implementation in Haskell.
 
 # Academic Papers
 
