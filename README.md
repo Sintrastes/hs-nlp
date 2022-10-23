@@ -25,6 +25,9 @@ But yeah, this is all MIT licensed, so if you find something useful, do what you
   * [HLearn Bayesian Classifier](https://izbicki.me/blog/hlearn-cross-validates-400x-faster-than-weka.html)
     * Super efficent and parallelizable implementation in Haskell.
     
+  * [Stop Using word2vec](https://multithreaded.stitchfix.com/blog/2017/10/18/stop-using-word2vec/)
+    * Really easy approach to generating word embeddings. Would be really easy to port over to Haskell -- we could probably use something like repa or massiv to do the calculations.
+    
 # Interesting Applications
   
   * [Type-Driven Neural Programming by Example](https://arxiv.org/abs/2008.12613)
