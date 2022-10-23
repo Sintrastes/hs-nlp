@@ -30,7 +30,7 @@ But yeah, this is all MIT licensed, so if you find something useful, do what you
  * [Semigroupoid Interfaces for Relation-Algebraic Programming in Haskell](https://link.springer.com/chapter/10.1007/11828563_16)
     * From the folks at Kiel (Curry). Seems like an interesting way to integrate logic programming into Haskell.
     
- * [Categorial Morphology](file:///Users/nathan/Downloads/10.4324_9781315857442_previewpdf.pdf)
+ * [Categorial Morphology](https://www.researchgate.net/publication/287263545_Categorial_Morphology)
     * This is a thesis that uses categorial methods to study morphology.
     
 ## Finite State Transducers
@@ -53,6 +53,8 @@ But yeah, this is all MIT licensed, so if you find something useful, do what you
  * [Bringing Machine Learning and Compositional Semantics Together](https://web.stanford.edu/~cgpotts/manuscripts/liang-potts-semantics.pdf)
 
  * [Neural Compositional Denotational Semantics for Question Answering](https://aclanthology.org/D18-1239.pdf)
+ 
+ * [A case for deep learning in semantics](https://arxiv.org/pdf/1809.03068.pdf)
 
 ## Logic and Type Theory
  * [Birelational Kripke semantics for an intuitionistic LTL](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.561.4232&rep=rep1&type=pdf)
