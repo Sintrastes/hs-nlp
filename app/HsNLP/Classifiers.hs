@@ -1,6 +1,9 @@
 
 module HsNLP.Classifiers where
 
+import Data.Map
+import HsNLP.Tokenization
+
 newtype Classifier tok cat = Classifier { classify :: [tok] -> cat }
 
 naiveBayes :: Tokenizer String String 

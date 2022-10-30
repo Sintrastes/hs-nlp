@@ -31,6 +31,7 @@ executable hs-nlp
       , HsNLP.NGram
       , HsNLP.Classifiers
       , HsNLP.Tokenization
+      , HsNLP.DistributionalSemantics
     default-extensions:
         RecordWildCards
       , ScopedTypeVariables
@@ -40,5 +41,8 @@ executable hs-nlp
       , semigroupoids
       , tensors
       , data-default
+      , hashtables
+      , containers
+      , directory
     hs-source-dirs:   app
     default-language: GHC2021
