@@ -9,6 +9,8 @@ and ideas to explore for combining probabalistic / bayesian / machine learning k
 
 But yeah, this is all MIT licensed, so if you find something useful, do what you want with it. 
 
+Note that this currently requires `--allow-newer` in order to run due to the dependency on `hmatrix-svdlibc`.
+
 # General NLP Resources
 
  * [CoreNLP](https://stanfordnlp.github.io/CoreNLP/): 
