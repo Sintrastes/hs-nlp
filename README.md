@@ -71,6 +71,9 @@ Note that this currently requires `--allow-newer` in order to run due to the dep
  * [Typelogical Grammar (SEP)](https://plato.stanford.edu/entries/typelogical-grammar/)
    * This page is a great introductory resource, going over different approaches to typelogical grammar. It also talks about (at least one of) the relationships between typelogical grammar and linear logic, as well as referencing some approaches which might be good to look into for parsing.
 
+* [Logic Analysis of Natural Language Based on Predicate Linear Logic](https://www.researchgate.net/publication/342973147_Logic_Analysis_of_Natural_Language_Based_on_Predicate_Linear_Logic)
+  * This paper applies ideas from linear logic to natural language semantics -- possibly similar to some of my ideas on the topic. Regardless, this might at least be a good starting out point. 
+
 * [Montague semantics, nominalizations and Scott’s domains](https://www.jstor.org/stable/25001126)
   * An application of domain theory to natural language semantics. The [SEP article](https://plato.stanford.edu/entries/montague-semantics/) cites this as being an example of "property semantics" -- which is used to get past some of the limitations of conventional (non-structural) possible world semantics in higher-order sentences like "Mary likes loving John".
 
