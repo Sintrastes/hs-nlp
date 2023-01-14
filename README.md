@@ -68,8 +68,15 @@ Note that this currently requires `--allow-newer` in order to run due to the dep
 
 ## Type-Logical Semantics 
 
- * [](https://plato.stanford.edu/entries/typelogical-grammar/)
+ * [Typelogical Grammar (SEP)](https://plato.stanford.edu/entries/typelogical-grammar/)
    * This page is a great introductory resource, going over different approaches to typelogical grammar. It also talks about (at least one of) the relationships between typelogical grammar and linear logic, as well as referencing some approaches which might be good to look into for parsing.
+
+* [Montague semantics, nominalizations and Scott’s domains](https://www.jstor.org/stable/25001126)
+  * An application of domain theory to natural language semantics. The [SEP article](https://plato.stanford.edu/entries/montague-semantics/) cites this as being an example of "property semantics" -- which is used to get past some of the limitations of conventional (non-structural) possible world semantics in higher-order sentences like "Mary likes loving John".
+
+* [Controlled Natural Languages for Knowledge Representation](http://staff.um.edu.mt/mros1/cnl2010/TALKS/schwitter_tutorial.pdf)
+  * This seems very similar in spirit to some of my motivations for Montague.
+  * See also [the wikipedia page](https://en.wikipedia.org/wiki/Controlled_natural_language), which mentions an esperanto-based controlled natural language, although the emphasis does not seem to be on semantics.
 
  * [Type-Driven Incremental Semantic Parsing with Polymorphism](https://arxiv.org/pdf/1411.5379.pdf)
    * This is very similar to some of the ideas I've tried to apply in Montague. Both subtyping and polymorphism are used.
