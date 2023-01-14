@@ -87,6 +87,11 @@ Note that this currently requires `--allow-newer` in order to run due to the dep
  * [Compositional Semantics: An Introduction to the Syntax/Semantics Interface](https://www.amazon.com/Compositional-Semantics-Introduction-Interface-Linguistics/dp/019967714X)
    * This is a fairly recent book (2014) on the topic which looks like it has some interesting topics.
 
+* [The Game of Language](https://link.springer.com/book/10.1007/978-94-010-9847-2)
+  * This looks like a good jumping off point to investigate applications of game-theoretic semantics in linguistics.
+  * Additionally, it seems like some connections to Wittgensten's "language games" are made here.
+  * It is unclear if there is anything here that directly uses game-theoretic semantics in a typelogical context. [Compositional semantics for a language of imperfect information](https://academic.oup.com/jigpal/article-abstract/5/4/539/646181?redirectedFrom=fulltext&login=false) seems like another paper which might be in this direction (giving a compositional semantics to game-theoretic ideas), but again I am not sure if there has been a super concrete connection with type-logical approaches as of yet.
+
 ## Logic and Type Theory
  * [Birelational Kripke semantics for an intuitionistic LTL](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.561.4232&rep=rep1&type=pdf)
     * This is more relevant to the work I'm doing in Montague. How do we implement a semantics for tenses? LTL seems like a natural fit.
