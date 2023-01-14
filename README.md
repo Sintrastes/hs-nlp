@@ -93,7 +93,8 @@ Note that this currently requires `--allow-newer` in order to run due to the dep
     * Carpenter actually covers this question in some depth.
     
  * [Concepts in a Probabilistic Language of Thought](https://cocolab.stanford.edu/papers/GoodmanEtAl2015-Chapter.pdf)
-   * A fascinating account of how a probabalistic programming langauge (Church) can be used to model "fuzzy" and scientific means of human reasoning, including providing a good account of counterfactuals (especially with some of the issues of typical modeling of counterfactuals as mentioned in Carpenter). There is even an entire book on this topic [here](https://probmods.org/), which uses a newer javascript-based version of Church. It would be interesting for Montague to see if we could build something similar to Church as an embedded DSL in Haskell.
+   * A fascinating account of how a probabalistic programming langauge (Church) can be used to model "fuzzy" and scientific means of human reasoning, including providing a good account of counterfactuals (especially with some of the issues of typical modeling of counterfactuals as mentioned in Carpenter). 
+   * There is even an entire book on this topic [here](https://probmods.org/), which uses a newer javascript-based version of Church. It would be interesting for Montague to see if we could build something similar to Church as an embedded DSL in Haskell.
 
 # Interesting Techniques
 
