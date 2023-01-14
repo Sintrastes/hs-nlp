@@ -65,6 +65,9 @@ Note that this currently requires `--allow-newer` in order to run due to the dep
  * [Neural Compositional Denotational Semantics for Question Answering](https://aclanthology.org/D18-1239.pdf)
  
  * [A case for deep learning in semantics](https://arxiv.org/pdf/1809.03068.pdf)
+ 
+ * [Neural Proof Nets](https://aclanthology.org/2020.conll-1.3.pdf)
+   * An interesting use of proof nets for neurosymbolic parsing.
 
 ## Type-Logical Semantics 
 
