@@ -71,6 +71,9 @@ Note that this currently requires `--allow-newer` in order to run due to the dep
  * [Type-Driven Incremental Semantic Parsing with Polymorphism](https://arxiv.org/pdf/1411.5379.pdf)
    * This is very similar to some of the ideas I've tried to apply in Montague. Both subtyping and polymorphism are used.
 
+ * [Dependent-Type-Theoretic Methods in Natural Language Semantics (ncat lab)](https://ncatlab.org/nlab/show/dependent+type+theoretic+methods+in+natural+language+semantics)
+   * This page is a great starting point for the literature on dependent type theory in natural language semantics. There's even references using homotopy type theory! 
+
 ## Logic and Type Theory
  * [Birelational Kripke semantics for an intuitionistic LTL](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.561.4232&rep=rep1&type=pdf)
     * This is more relevant to the work I'm doing in Montague. How do we implement a semantics for tenses? LTL seems like a natural fit.
