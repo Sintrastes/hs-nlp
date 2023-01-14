@@ -108,6 +108,16 @@ Note that this currently requires `--allow-newer` in order to run due to the dep
    * A fascinating account of how a probabalistic programming langauge (Church) can be used to model "fuzzy" and scientific means of human reasoning, including providing a good account of counterfactuals (especially with some of the issues of typical modeling of counterfactuals as mentioned in Carpenter). 
    * There is even an entire book on this topic [here](https://probmods.org/), which uses a newer javascript-based version of Church. It would be interesting for Montague to see if we could build something similar to Church as an embedded DSL in Haskell.
 
+ * [Logic and pragmatics: Linear logic for inferential practice](https://www.researchgate.net/publication/241889011_Logic_and_pragmatics_Linear_logic_for_inferential_practice)
+   * This paper looks like a very deep application of linear logic to the realm of pragmatics, related to Brandom's work.
+   * Although it does not look like it uses typological grammar, I believe it could be applied there.
+   * Notably, it looks like tihs make use of the full (i.e. disjunctive and conjunctive, additive and multiplicative) gamut of linear logic connectives.
+   
+ * [On an intuitionistic logic for pragmatics](https://philarchive.org/archive/BELOAI-3)
+   * Similarly to the above, this paper study pragmatics -- however, it makes use of a bi-intuintionistic logic rather than linear logic.
+   * This paper is interesting more generally in that apparently it looks at a computational interperation of co-intuitionism in terms
+     of coroutines.
+
 # Interesting Techniques
 
  * [Finite State Tree Transducers](https://home.uni-leipzig.de/gkobele/courses/2018.WS/CompLing/DTT.html) 
