@@ -68,6 +68,9 @@ Note that this currently requires `--allow-newer` in order to run due to the dep
 
 ## Type-Logical Semantics 
 
+ * [](https://plato.stanford.edu/entries/typelogical-grammar/)
+   * This page is a great introductory resource, going over different approaches to typelogical grammar. It also talks about (at least one of) the relationships between typelogical grammar and linear logic, as well as referencing some approaches which might be good to look into for parsing.
+
  * [Type-Driven Incremental Semantic Parsing with Polymorphism](https://arxiv.org/pdf/1411.5379.pdf)
    * This is very similar to some of the ideas I've tried to apply in Montague. Both subtyping and polymorphism are used.
 
