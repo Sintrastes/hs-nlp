@@ -66,9 +66,15 @@ Note that this currently requires `--allow-newer` in order to run due to the dep
  
  * [A case for deep learning in semantics](https://arxiv.org/pdf/1809.03068.pdf)
 
+## Type-Logical Semantics 
+
+ * [Type-Driven Incremental Semantic Parsing with Polymorphism](https://arxiv.org/pdf/1411.5379.pdf)
+   * This is very similar to some of the ideas I've tried to apply in Montague. Both subtyping and polymorphism are used.
+
 ## Logic and Type Theory
  * [Birelational Kripke semantics for an intuitionistic LTL](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.561.4232&rep=rep1&type=pdf)
     * This is more relevant to the work I'm doing in Montague. How do we implement a semantics for tenses? LTL seems like a natural fit.
+    * Carpenter actually covers this question in some depth.
 
 # Interesting Techniques
 
