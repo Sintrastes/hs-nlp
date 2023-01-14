@@ -83,6 +83,9 @@ Note that this currently requires `--allow-newer` in order to run due to the dep
 
  * [Dependent-Type-Theoretic Methods in Natural Language Semantics (ncat lab)](https://ncatlab.org/nlab/show/dependent+type+theoretic+methods+in+natural+language+semantics)
    * This page is a great starting point for the literature on dependent type theory in natural language semantics. There's even references using homotopy type theory! 
+   
+ * [Compositional Semantics: An Introduction to the Syntax/Semantics Interface](https://www.amazon.com/Compositional-Semantics-Introduction-Interface-Linguistics/dp/019967714X)
+   * This is a fairly recent book (2014) on the topic which looks like it has some interesting topics.
 
 ## Logic and Type Theory
  * [Birelational Kripke semantics for an intuitionistic LTL](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.561.4232&rep=rep1&type=pdf)
