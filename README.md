@@ -129,6 +129,12 @@ Note that this currently requires `--allow-newer` in order to run due to the dep
  
  * [How to Grow a Mind: Statistics, Structure, and Abstraction](https://cocosci.princeton.edu/tom/papers/LabPublications/GrowMind.pdf)
  
+ * [A Compositional Bayesian Semantics for Natural Language](https://aclanthology.org/W18-4101.pdf)
+   * This is a really interesting looking paper. Notably, it is implemented in Haskell, uses typelogical methods, and in addition to using a bayesian semantics, also incorporates ideas from distributional semantics.
+ 
+ * [Bayesian Natural Language Semantics and Pragmatics](https://link.springer.com/book/10.1007/978-3-319-17064-0)
+   * Another reference to potentially explore the use of bayesian methods in compositional semantics.
+ 
  * [Gen](https://www.gen.dev/)
    * A probabalistic programming language implemented in Julia.
  
