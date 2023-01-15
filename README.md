@@ -120,6 +120,25 @@ Note that this currently requires `--allow-newer` in order to run due to the dep
    * Similarly to the above, this paper study pragmatics -- however, it makes use of a bi-intuintionistic logic rather than linear logic.
    * This paper is interesting more generally in that apparently it looks at a computational interperation of co-intuitionism in terms
      of coroutines.
+     
+## Probabilistic Techniques and Inference
+
+ * [Human-level concept learning through probabilistic program induction](https://www.cs.cmu.edu/~rsalakhu/papers/LakeEtAl2015Science.pdf)
+ 
+ * [The discovery of structural form](https://www.pnas.org/doi/10.1073/pnas.0802631105)
+ 
+ * [How to Grow a Mind: Statistics, Structure, and Abstraction](https://cocosci.princeton.edu/tom/papers/LabPublications/GrowMind.pdf)
+ 
+ * [Gen](https://www.gen.dev/)
+   * A probabalistic programming language implemented in Julia.
+ 
+ * [Pyro](https://pyro.ai/)
+   * Another probabalistic programming language, which also incorporates ideas from machine learning.
+   * This has some really interesting examples, such as [Rational Speach Acts](https://pyro.ai/examples/RSA-implicature.html).
+   
+### Research Questions
+
+ * Do existing Haskell-based probalisic programming DSLs like `monad-bayes` have the same capabilities as languages like Church, especially as showcased in languages like "Concepts in a Probabilistic Language of Thought"?
 
 # Interesting Techniques
 
